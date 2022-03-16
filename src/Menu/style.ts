@@ -7,7 +7,14 @@ export const CIRCLE_SIZE = 50;
 export const styles = StyleSheet.create({
   page: {
     height: '100%',
-    justifyContent: 'flex-end',
+    justifyContent: 'space-between',
+  },
+  header: {
+    marginTop: 100,
+    fontSize: 30,
+  },
+  subheader: {
+    fontSize: 20,
   },
   wrapper: {
     flexDirection: 'row',
@@ -21,11 +28,6 @@ export const styles = StyleSheet.create({
     paddingHorizontal: MENU_HORIZONTAL_PADDING,
   },
   highlight: {
-    width: CIRCLE_SIZE,
-    height: CIRCLE_SIZE,
     position: 'absolute',
-    borderRadius: 50,
-    borderWidth: 2,
-    borderColor: '#ffffff',
   },
 });
